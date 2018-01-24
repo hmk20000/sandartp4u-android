@@ -1,0 +1,89 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="20dp"
+    android:stretchColumns="1">
+
+    <TableRow android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:lineSpacingExtra="2dp"
+            android:textSize="19sp"
+            android:textColor="#ffc97c19"
+            android:text="@string/contact_new_description" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:text="@string/contact_name" />
+
+        <EditText
+            android:id="@+id/name"
+            android:singleLine="true"
+            android:hint="@string/contact_name_hint"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:text="@string/contact_email" />
+
+        <EditText
+            android:id="@+id/email"
+            android:singleLine="true"
+            android:hint="@string/contact_email_hint"
+            android:inputType="textEmailAddress" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:text="@string/contact_mobile" />
+
+        <EditText
+            android:id="@+id/mobile"
+            android:singleLine="true"
+            android:hint="@string/contact_mobile_hint"
+            android:inputType="phone" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:text="@string/contact_note" />
+
+        <EditText
+            android:id="@+id/note"
+            android:hint="@string/contact_note_hint"
+            android:inputType="textMultiLine" />
+    </TableRow>
+
+
+</TableLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="category_delete"
+        android:title="@string/preference_delete_title">
+        <PreferenceScreen
+            android:key="delete_media"
+            android:title="@string/preference_delete_videos" />
+        <PreferenceScreen
+            android:key="delete_contacts"
+            android:title="@string/preference_delete_contacts" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_link"
+        android:title="LINKS">
+        <PreferenceScreen
+            android:key="link_everykoreanstudent"
+            android:title="@string/preference_link_everykoreanstudent">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://everykoreanstudent.com" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="link_sandartp4u"
+            android:title="@string/preference_link_sandartp4u">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://sandartp4u.com" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_version"
+        android:title="@string/preference_version_title">
+        <PreferenceScreen android:key="version" />
+        <PreferenceScreen
+            android:key="publisher"
+            android:summary="@string/preference_version_publisher_summary"
+            android:title="@string/preference_version_publisher_title" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

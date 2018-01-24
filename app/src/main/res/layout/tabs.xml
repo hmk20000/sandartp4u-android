@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.astuetz.PagerSlidingTabStrip xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/tabs"
+    android:layout_width="match_parent"
+    android:layout_height="48dip"
+    app:pstsIndicatorColor="#ddffffff"
+    app:pstsIndicatorHeight="5dp"
+    app:pstsTabPaddingLeftRight="12dp"
+    app:pstsUnderlineHeight="0dp" />

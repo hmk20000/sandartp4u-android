@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/build/intermediates/bundles/debug/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,4,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,542,1032",
+                        "endLines": "2,13,23",
+                        "endColumns": "62,12,12",
+                        "endOffsets": "113,1027,1517"
+                    }
+                }
+            ]
+        }
+    ]
+}

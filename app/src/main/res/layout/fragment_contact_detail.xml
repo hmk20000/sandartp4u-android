@@ -1,0 +1,106 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="20dp"
+    android:stretchColumns="1">
+
+    <TableRow android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/contact_detail_description"
+            android:textColor="#ffc97c19"
+            android:textSize="19sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:text="@string/contact_name"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#ff666666" />
+
+        <TextView
+            android:id="@+id/name"
+            android:singleLine="true"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:text="@string/contact_email"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#ff666666" />
+
+        <TextView
+            android:id="@+id/email"
+            android:singleLine="true"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:text="@string/contact_mobile"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#ff666666" />
+
+        <TextView
+            android:id="@+id/mobile"
+            android:singleLine="true"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:text="@string/contact_date"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#ff666666" />
+
+        <TextView
+            android:id="@+id/date"
+            android:singleLine="true"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:text="@string/contact_note"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#ff666666" />
+
+        <TextView
+            android:id="@+id/note"
+            android:singleLine="true"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+    </TableRow>
+
+
+</TableLayout>
