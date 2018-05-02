@@ -51,6 +51,8 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
+import cn.jzvd.JZVideoPlayer;
+import cn.jzvd.JZVideoPlayerStandard;
 
 
 public class SandArtFragment extends ListFragment implements MainActivity.ForegroundCallback, ServiceConnection {
@@ -93,12 +95,18 @@ public class SandArtFragment extends ListFragment implements MainActivity.Foregr
         public void onClick(View view) {
             String key = (String) view.getTag();
             if (key == null) return;
-            Intent intent = new Intent(Intent.ACTION_VIEW);
+//
+//            Intent intent = new Intent(Intent.ACTION_VIEW);
+//            File file = new File(App.getStoredPath(key));
+//            intent.setDataAndType(Uri.fromFile(file), "video/mp4");
+//            startActivity(intent);
+
             File file = new File(App.getStoredPath(key));
-            intent.setDataAndType(Uri.fromFile(file), "video/mp4");
-            startActivity(intent);
+            JZVideoPlayerStandard.startFullscreen(getActivity(),JZVideoPlayerStandard.class,Uri.fromFile(file).toString());
+//            JZVideoPlayerStandard.startFullscreen(this, JZVideoPlayerStandard.class, "http://2449.vod.myqcloud.com/2449_22ca37a6ea9011e5acaaf51d105342e3.f20.mp4", "嫂子辛苦了");
         }
     };
+
 
     private BroadcastReceiver mLocalBroadcastReceiver = new BroadcastReceiver() {
         @Override
@@ -221,7 +229,7 @@ public class SandArtFragment extends ListFragment implements MainActivity.Foregr
 
         restoreList();
         readOwnedItem();
-        readSkuList();
+//        readSkuList();
 
 
         mListView = getListView();
@@ -249,7 +257,7 @@ public class SandArtFragment extends ListFragment implements MainActivity.Foregr
             @Override
             protected Object doInBackground(Object... objects) {
                 readOwnedItem();
-                readSkuList();
+//                readSkuList();
                 return null;
             }
 
@@ -491,7 +499,7 @@ public class SandArtFragment extends ListFragment implements MainActivity.Foregr
 
     @Override
     public void onForeground() {
-//        restoreList();
+        restoreList();
 //        readOwnedItem();
 //        readSkuList();
 //        if (mAdapter != null) mAdapter.notifyDataSetChanged();

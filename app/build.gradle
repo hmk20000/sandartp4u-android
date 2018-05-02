@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "org.kccc.sandartp4u"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 11
         versionName "1.1"
@@ -33,4 +33,6 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.9.0'
     compile 'com.android.billingclient:billing:1.0'
     compile 'com.google.code.gson:gson:2.3.1'
+
+    compile 'cn.jzvd:jiaozivideoplayer:6.2.9'
 }

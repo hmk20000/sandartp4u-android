@@ -14,6 +14,8 @@ import android.view.WindowManager;
 
 import com.astuetz.PagerSlidingTabStrip;
 
+import cn.jzvd.JZVideoPlayer;
+
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
@@ -72,6 +74,20 @@ public class MainActivity extends AppCompatActivity {
         if (foreground != null) {
             foreground.onActivityResult(requestCode, resultCode, data);
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (JZVideoPlayer.backPress()) {
+            return;
+        }
+        super.onBackPressed();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        JZVideoPlayer.releaseAllVideos();
     }
 
     public class PageAdapter extends FragmentPagerAdapter implements PagerSlidingTabStrip.IconTabProvider {
