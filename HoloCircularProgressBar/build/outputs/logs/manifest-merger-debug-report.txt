@@ -1,41 +1,41 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:2:1-14:12
+ADDED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:2:1-14:12
 	package
-		ADDED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:2:11-61
-		INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml
-		INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml
+		ADDED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:2:11-61
+		INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml
+		INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:6:5-30
-		INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml
-		INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml
+		ADDED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml
+		INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:4:5-51
+		ADDED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:4:5-51
 	xmlns:android
-		ADDED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:3:5-63
+		ADDED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:3:5-63
 	android:versionCode
-		ADDED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:5:5-28
-		INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml
-		INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml
+		ADDED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml
+		INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml
 uses-sdk
-ADDED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:9:5-12:42
-INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:9:5-12:42
-INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:9:5-12:42
-INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:9:5-12:42
-INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:9:5-12:42
+ADDED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:9:5-12:42
+INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:9:5-12:42
+INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:9:5-12:42
+INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:9:5-12:42
+INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:9:5-12:42
 	android:targetSdkVersion
-		ADDED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:11:9-38
-		INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml
-		INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml
+		ADDED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:11:9-38
+		INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml
+		INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml
 	tools:ignore
-		ADDED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:12:9-39
+		ADDED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:12:9-39
 	android:minSdkVersion
-		ADDED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml:10:9-34
-		INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml
-		INJECTED from /Users/ming/Desktop/ming/cccvlm/project/sandartp4u/android/code/sandartp4u2/HoloCircularProgressBar/AndroidManifest.xml
+		ADDED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml:10:9-34
+		INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml
+		INJECTED from C:\Users\hmk20\Desktop\ming\ccc\VLM\project\sandartp4u\android\sandartp4u-android\HoloCircularProgressBar\AndroidManifest.xml

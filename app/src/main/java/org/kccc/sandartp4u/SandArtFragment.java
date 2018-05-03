@@ -229,7 +229,7 @@ public class SandArtFragment extends ListFragment implements MainActivity.Foregr
 
         restoreList();
         readOwnedItem();
-//        readSkuList();
+        readSkuList();
 
 
         mListView = getListView();
@@ -257,7 +257,7 @@ public class SandArtFragment extends ListFragment implements MainActivity.Foregr
             @Override
             protected Object doInBackground(Object... objects) {
                 readOwnedItem();
-//                readSkuList();
+                readSkuList();
                 return null;
             }
 
@@ -500,8 +500,8 @@ public class SandArtFragment extends ListFragment implements MainActivity.Foregr
     @Override
     public void onForeground() {
         restoreList();
-//        readOwnedItem();
-//        readSkuList();
+        readOwnedItem();
+        readSkuList();
 //        if (mAdapter != null) mAdapter.notifyDataSetChanged();
     }
 

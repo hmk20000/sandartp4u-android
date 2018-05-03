@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HoloCircularProgressBar/HoloCircularProgressBar.iml" filepath="$PROJECT_DIR$/HoloCircularProgressBar/HoloCircularProgressBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sandartp4u2.iml" filepath="$PROJECT_DIR$/sandartp4u2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sandartp4u-android.iml" filepath="$PROJECT_DIR$/sandartp4u-android.iml" />
     </modules>
   </component>
 </project>
