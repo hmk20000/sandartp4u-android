@@ -492,8 +492,8 @@ public class SandArtFragment extends ListFragment implements MainActivity.Foregr
     @Override
     public void onForeground() {
         restoreList();
-        readOwnedItem();
-        readSkuList();
+        //readOwnedItem();
+        //readSkuList();
 //        if (mAdapter != null) mAdapter.notifyDataSetChanged();
     }
 
