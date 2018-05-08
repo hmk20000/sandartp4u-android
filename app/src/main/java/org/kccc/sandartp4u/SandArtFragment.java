@@ -39,6 +39,9 @@ import android.widget.TextView;
 import com.android.vending.billing.IInAppBillingService;
 import com.google.gson.Gson;
 import com.pascalwelsch.holocircularprogressbar.HoloCircularProgressBar;
+import com.yanzhenjie.permission.AndPermission;
+import com.yanzhenjie.permission.Permission;
+import com.yanzhenjie.permission.Rationale;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -174,7 +177,7 @@ public class SandArtFragment extends ListFragment implements MainActivity.Foregr
 
                 final Media media = mAdapter.getItem(position);
 
-                final HoloCircularProgressBar progress = (HoloCircularProgressBar) mListView.findViewWithTag(media);
+                final HoloCircularProgressBar progress = mListView.findViewWithTag(media);
                 assert progress != null;
                 DownloadService downloadService = DownloadService.get();
                 String url = downloadService.getCurrentMediaKey();
@@ -210,17 +213,6 @@ public class SandArtFragment extends ListFragment implements MainActivity.Foregr
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-        /*Intent serviceIntent = new Intent("com.android.vending.billing.InAppBillingService.BIND");
-//        if (!mActivity.getPackageManager().queryIntentServices(serviceIntent, 0).isEmpty()) {
-            // service available to handle that Intent
-            serviceIntent.setPackage("com.android.vending");
-
-            mActivity.bindService(serviceIntent, this, Context.BIND_AUTO_CREATE);
-//        }
-
-//        mActivity.bindService(new Intent("com.android.vending.billing.InAppBillingService.BIND"), this, Context.BIND_AUTO_CREATE);
-*/
 
         Intent serviceIntent =
                 new Intent("com.android.vending.billing.InAppBillingService.BIND");
@@ -363,7 +355,7 @@ public class SandArtFragment extends ListFragment implements MainActivity.Foregr
         if (listString == null) {
             byte[] data = readAssetFile(MEDIA_LIST_JSON);
             listString = new String(data);
-            Logger.d(KEY, "readAssetFile-listString:" + listString);
+//            Logger.d(KEY, "readAssetFile-listString:" + listString);
         }
 
         mediaMap = parseMediaList(listString);
